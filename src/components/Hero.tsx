@@ -71,7 +71,7 @@ const Hero = () => {
             transition={{ duration: 0.7, delay: 0.5 }}
             className="mt-16 max-w-2xl mx-auto"
           >
-            <div className="bg-primary text-primary-foreground rounded-xl p-6 text-left font-mono text-sm overflow-x-auto">
+            <div className="bg-card border border-border text-foreground rounded-xl p-6 text-left font-mono text-sm overflow-x-auto">
               <div className="flex items-center gap-2 mb-4">
                 <div className="w-3 h-3 rounded-full bg-red-500" />
                 <div className="w-3 h-3 rounded-full bg-yellow-500" />
@@ -80,8 +80,8 @@ const Hero = () => {
               <pre className="text-sm leading-relaxed">
                 <code>
                   <span className="text-accent">curl</span> -X POST https://api.quizapi.io/v2/quiz \{'\n'}
-                  {"  "}-H <span className="text-cyan-400">"Authorization: Bearer sk_live_..."</span> \{'\n'}
-                  {"  "}-d <span className="text-cyan-400">'{"{"}"title": "My Quiz", "questions": [...]{"}"}'</span>
+                  {"  "}-H <span className="text-purple-400">"Authorization: Bearer sk_live_..."</span> \{'\n'}
+                  {"  "}-d <span className="text-purple-400">'{"{"}"title": "My Quiz", "questions": [...]{"}"}'</span>
                 </code>
               </pre>
             </div>
